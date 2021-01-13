@@ -189,7 +189,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             }
             else
             {
-                SetWindowTextA(ContentWindow, "calm down adhd kid, you haven't even connected yet");
+                SetWindowTextA(ContentWindow, "You have not yet established a connection to a server.");
             }
         }
 
@@ -205,7 +205,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             }
             else
             {
-                SetWindowTextA(ContentWindow, "calm down adhd kid, you haven't even connected yet");
+                SetWindowTextA(ContentWindow, "You have not yet established a connection to a server.");
             }
         }
 
